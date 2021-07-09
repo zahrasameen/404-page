@@ -1,0 +1,67 @@
+.title__text{
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    color: #333333;
+}
+
+img{
+    width: 300px;
+    margin: 30px 0px 0px 20px;
+}
+
+.main__text--heading{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.main__text--description{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+button{
+    border: none;
+    background: #333333;
+    width: 216px;
+    height: 68px;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.footer__text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+.username {
+    font-weight:bold;   
+}
