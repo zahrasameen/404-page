@@ -22,13 +22,13 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-  - [Built With](#built-with)
+- [Preview](#overview)
+- [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
-## Overview
+## Preview
 
 ![screenshot](https://github.com/zahrasameen/404-page/blob/master/overview.png)
 
