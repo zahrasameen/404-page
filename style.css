@@ -6,11 +6,30 @@
     line-height: 25px;
     letter-spacing: -0.08em;
     color: #333333;
+    padding-left: 55px;
+    padding-top: 10px;
 }
 
+.main__image{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
 img{
-    width: 300px;
-    margin: 30px 0px 0px 20px;
+    width:100%;
+    max-width:500px;    
+}
+
+.main{
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    
+}
+
+.main__text{
+    padding-right:250px;
+    padding-left:15px;
 }
 
 .main__text--heading{
@@ -22,6 +41,7 @@ img{
     letter-spacing: -0.035em;
     color: #333333;
     margin-bottom: 30px;
+    
 }
 
 .main__text--description{
@@ -34,13 +54,14 @@ img{
     color: #4F4F4F;
     margin-top: 0px;
     margin-bottom: 60px;
+    padding-right: 150px;
 }
 
 button{
     border: none;
     background: #333333;
-    width: 216px;
-    height: 68px;
+    width: 200px;
+    height: 60px;
     font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: bold;
@@ -48,8 +69,8 @@ button{
     line-height: 21px;
     letter-spacing: -0.035em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 80px;
+    color: #FFFFFF;    
+    cursor:pointer;
 }
 
 .footer__text{
@@ -59,9 +80,29 @@ button{
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    color: #BDBDBD;
+    color: #4f4f4fa8;
+    margin-top: 180px;
 }
 
 .username {
     font-weight:bold;   
 }
+
+@media screen and (max-width: 480px) {
+    .title__text{
+        padding-left:10px;
+    }
+    .main{
+        margin-top: 60px;
+    }
+    .main__text{
+        padding:0px;
+        margin-top: 30px;
+    }
+    .main__text--description{
+        padding-right: 70px;
+    }
+    .footer__text{
+        margin-top: 100px;
+    }
+  }
