@@ -87,7 +87,7 @@ button{
     font-weight:bold;   
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
     .title__text{
         padding-left:30px;
     }
@@ -99,9 +99,10 @@ button{
         max-width:650px;
     }
     .main__text{
-        margin:0;
+        margin-top :85%;
+        margin-left:0;
         padding:4%;
-        margin-top: 600px;
+        
     }
     .main__text--heading{
         padding-right: 0;
@@ -127,9 +128,8 @@ button{
         max-width:400px;
     }
     .main__text{
-        margin: 0;
-        padding: 0;
-        margin-top: 400px;
+        margin-top: 95%;
+        margin-left: 0;
     }
     .main__text--description{
         padding-right: 70px;
@@ -137,5 +137,5 @@ button{
     .footer{
         margin-top: 120px;
     } 
-  }
+}
  
