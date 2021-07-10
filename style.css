@@ -11,29 +11,33 @@
 }
 
 .main__image{
-    display:flex;
-    justify-content:center;
-    align-items: center;
+    float: left;
+    padding: 7%;
 }
 img{
-    width:100%;
-    max-width:500px;  
-    object-fit: contain;  
-}
+    width: 100%;
+    max-width:550px;  
+    object-fit: contain; 
+   
+} 
 
-.main{
+/* .main{
     margin-top: 140px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-}
+   width: 100%
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+} */
 
 .main__text{
-    padding-right:250px;
-    padding-left:15px;
+    /*padding-right:250px;
+     padding-left:15px; */
+    margin-left: 50%;
+    margin-top: 12%;    
 }
 
 .main__text--heading{
     font-family: 'Space Mono', monospace;
+    font-weight: 900;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -41,7 +45,7 @@ img{
     letter-spacing: -0.035em;
     color: #333333;
     margin-bottom: 30px;
-    
+    padding-right: 200px;
 }
 
 .main__text--description{
@@ -54,7 +58,7 @@ img{
     color: #4F4F4F;
     margin-top: 0px;
     margin-bottom: 60px;
-    padding-right: 150px;
+    padding-right: 50%;
 }
 
 button{
@@ -73,6 +77,12 @@ button{
     cursor:pointer;
 }
 
+.footer{
+    float:inline-start;
+    margin-top: 12%;
+    width: 100%;
+}
+
 .footer__text{
     font-family: Montserrat;
     font-style: normal;
@@ -81,18 +91,63 @@ button{
     line-height: 17px;
     text-align: center;
     color: #4f4f4fa8;
-    margin-top: 180px;
 }
 
 .username {
     font-weight:bold;   
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px){
+    .title__text{
+        padding-left:30px;
+    }
+    .main__image{
+        margin-top: 40px;
+        padding:3%;
+    }
+    img{
+        max-width:650px;
+    }
+    .main__text{
+        margin:0;
+        padding:4%;
+        margin-top: 600px;
+    }
+    .main__text--heading{
+        padding-right: 0;
+    }
+    .main__text--description{
+        padding-right: 70px;
+    }
+    .footer{
+        width: 100%;
+        margin-top: 100px;
+    }
+  }
+
+@media screen and (max-width: 480px){
     .title__text{
         padding-left:10px;
     }
-    .main{
+    .main__image{
+        margin-top: 40px;
+        padding:0;
+    }
+    img{
+        max-width:400px;
+    }
+    .main__text{
+        margin: 0;
+        padding: 0;
+        margin-top: 400px;
+    }
+    .main__text--description{
+        padding-right: 70px;
+    }
+    .footer{
+        margin-top: 100px;
+    } 
+    /* .main{
         margin-top: 75px;
     }
     .main__text{
@@ -104,5 +159,6 @@ button{
     }
     .footer__text{
         margin-top: 130px;
-    }
+    } */
   }
+ 
